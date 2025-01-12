@@ -8,9 +8,11 @@ public class MyApplication {
         p.displayName();
         p.setSurname("Hilfenhaus");
         p.setAge(34);
+        p.setFavColor("Blue");
 
         p.displayName();
         System.out.println(p.getSurname());
         System.out.println(p.getAge());
+        System.out.println(p.getFavColor());
     }
 }
